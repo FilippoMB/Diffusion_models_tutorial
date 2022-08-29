@@ -9,9 +9,9 @@ To obtain better results, the prompt should be egineered. A basic recipe is the 
 - Examples of ``artist`` are: Jan van Eyck (when ``style`` = *Portrait*), *Vincent Van Gogh* (when ``style`` = *Oil painting*), *Leonardo Da Vinci* (when ``style`` = *Pencil drawing*), and so on. Note that you can also mix artists, to get original results.
 - Examples of ``details`` are *Unreal Engine* if you want to add realistic lightining, *8 k* if you want to add more details, *artstation* if you want to make your image more artistic, and so on.
 
-Example prompt: 
+Example of elaborated prompt: 
 
-*"retrofuturistic portrait of a lion in astro suit, space graphics art in background, close up, wlop, dan mumford, artgerm, liam brazier, peter mohrbacher, 8 k, raw, featured in artstation, octane render, cinematic, elegant, intricate, 8 k"*
+*"retrofuturistic portrait of a lion in astro suit, space graphics art in background, close up, wlop, dan mumford, artgerm, liam brazier, peter mohrbacher, raw, featured in artstation, octane render, cinematic, elegant, intricate, 8 k"*
 
 To see more examples of prompts and get inspirations, check [here](https://lexica.art/).
 
