@@ -1,4 +1,19 @@
-## Prompt guide
+## Prompt engineering guide
+Let's say you want to draw an image of ``lion``. The raw promt, ``lion`` will give you images that are usually chaotic or of bad quality.
+
+To obtain better results, the prompt should be egineered. A basic recipe is the following:
+
+``raw prompt`` + ``style`` + ``artist`` + ``details``
+
+- Examples of ``style`` are: *Portrait*, *Realistic*, *Oil painting*, *Pencil drawing*, *Concept art*
+- Examples of ``artist`` are: Jan van Eyck (when ``style`` = *Portrait*), *Vincent Van Gogh* (when ``style`` = *Oil painting*), *Leonardo Da Vinci* (when ``style`` = *Pencil drawing*), and so on. Note that you can also mix artists, to get original results.
+- Examples of ``details`` are *Unreal Engine* if you want to add realistic lightining, *8 k* if you want to add more details, *artstation* if you want to make your image more artistic, and so on.
+
+Example prompt: 
+
+*"retrofuturistic portrait of a lion in astro suit, space graphics art in background, close up, wlop, dan mumford, artgerm, liam brazier, peter mohrbacher, 8 k, raw, featured in artstation, octane render, cinematic, elegant, intricate, 8 k"*
+
+To see more examples of prompts and get inspirations, check [here](https://lexica.art/).
 
 
 ## Resources
