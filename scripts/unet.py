@@ -234,7 +234,6 @@ class Unet(nn.Module):
         dim_mults=(1, 2, 4, 8),
         channels=3,
         with_time_emb=True,
-        resnet_block_groups=8,
         use_convnext=True,
         convnext_mult=2,
     ):
@@ -249,10 +248,7 @@ class Unet(nn.Module):
         dims = [init_dim, *map(lambda m: dim * m, dim_mults)]
         in_out = list(zip(dims[:-1], dims[1:]))
 
-        if use_convnext:
-            block_klass = partial(ConvNextBlock, mult=convnext_mult)
-        else:
-            block_klass = partial(ResnetBlock, groups=resnet_block_groups)
+        block_klass = partial(ConvNextBlock, mult=convnext_mult)
 
         # time embeddings
         if with_time_emb:
