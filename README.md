@@ -4,18 +4,22 @@ Recently, the [Stable Diffusion Public Release](https://stability.ai/blog/stable
 
 This repository is a collection of simple scripts that can be used to generate images with Stable Diffusion and gives an introduction to the theory behind diffusion models.
 
-To start using Stable Diffusion, you first need to create an account on [Huggin's Face](https://huggingface.co/) and generate a [token](https://huggingface.co/docs/hub/security-tokens). Afterwards, if you have access to a GPU server, you can follow the basic tutorial in the [model card](https://huggingface.co/CompVis/stable-diffusion-v1-4).
-If you don't have a GPU server to run the model, you can try out Stable Diffusion using one of the Colab notebooks below. 
+A short introduction on the ideas behind the diffusion models is [here](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0kurBgDwDsNOLybrYKU-O2y98xM/edit?usp=sharing).
+
+To start using Stable Diffusion, you first need to create an account on [Huggin's Face](https://huggingface.co/), generate a [token](https://huggingface.co/docs/hub/security-tokens) and accept the [conditions](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original). Afterwards, if you have access to a GPU server, you can follow the basic tutorial in the [model card](https://huggingface.co/CompVis/stable-diffusion-v1-4).
+If you don't have a GPU server to run the model, you can try out Stable Diffusion using one of the Colab notebooks below.
 
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
 - Image to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zjr9n60q3G8Qd87WG3ZnjDgI-D1YBCbG?usp=sharing)
-- Sketch to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
 
 
 ## 2. Prompt engineering guide
 Let's say you want to draw an image of ``lion``. The raw promt, ``lion`` will give you images that are usually a bit chaotic or worse quality.
 
-<img src="./img/lion_short.png">
+
+<div>
+<img src="./img/lion_short.png" width="250"/>
+</div>
 
 To obtain better results, the prompt should be egineered. A basic recipe is the following:
 
@@ -29,11 +33,16 @@ Example of elaborated prompts:
 
 *"Professional photograph of a lion with a black mane, high quality, highly detailed, award-winning, hd, 8k, awe-inspirin"*
 
-<img src="./img/lion_long1.png">
+<div>
+<img src="./img/lion_long1.png" width="600"/>
+</div>
+
 
 *"retrofuturistic portrait of a lion in astro suit, space graphics art in background, close up, wlop, dan mumford, artgerm, liam brazier, peter mohrbacher, raw, featured in artstation, octane render, cinematic, elegant, intricate, 8 k"*
 
-<img src="./img/lion_long.png">
+<div>
+<img src="./img/lion_long.png" width="600"/>
+</div>
 
 To see more examples of prompts and get inspirations, check [here](https://lexica.art/).
 
@@ -46,14 +55,14 @@ Pytorch implementation of the diffussion model presented in [].
 ## 4. Resources
 
 **Repositories**
-- A browser interface based on Gradio library for Stable Diffusion [link](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+- A browser interface based on Gradio library for Stable Diffusion - [Github](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 
 **Colab notebooks**
 - Introduction to diffusers 🧨, the Hugging Face 🤗 library for diffusion models [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/diffusers_intro.ipynb)
 - Introduction to Stable Diffusion with diffusers 🧨 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/stable_diffusion.ipynb)
 - Image2Image pipeline for Stable Diffusion [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/patil-suraj/Notebooks/blob/master/image_2_image_using_diffusers.ipynb)
 - Denoising Diffusion Implicit Models in Tensorflow/Keras [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/generative/ipynb/ddim.ipynb)
-- Generation of videos [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb) (you need to download the weights from [here](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) and upload them to your Google Drive)
+- Generate video animations [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb) (you need to download the weights from [here](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) and upload them to your Google Drive)
 
 
 
