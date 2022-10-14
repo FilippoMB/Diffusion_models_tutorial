@@ -47,12 +47,7 @@ Example of elaborated prompts:
 To see more examples of prompts and get inspirations, check [here](https://lexica.art/). To find a prompt for a specific image, you can use [this](https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb?authuser=0&pli=1#scrollTo=rbDEMDGJrJEo) image classifier notebook. 
 
 
-## 3. Diffusion model theory and step-by-step implementation
-
-Pytorch implementation of the diffussion model presented in [].
-
-
-## 4. Resources
+## 3. Resources
 
 **Repositories**
 - A browser interface based on Gradio library for Stable Diffusion - [Github](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
