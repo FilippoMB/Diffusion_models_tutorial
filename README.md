@@ -55,7 +55,8 @@ To see more examples of prompts and get inspirations, check [here](https://lexic
 ## 3. Resources
 
 **Repositories**
-- A web-interface with tons of advanced features that runs locally - [Github](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+- A web-interface with tons of advanced features that runs locally - [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+- A WebUI extension to generate videos - [Deforum WebUI](https://github.com/deforum-art/sd-webui-deforum)
 
 **Colab notebooks (demo)**
 - text2img and img2img with advanced features [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AfAmwLMd_Vx33O9IwY2TmO9wKZ8ABRRa)
