@@ -1,6 +1,6 @@
 ## 1. Quick start 
 
-Recently, the [Stable Diffusion Public Release](https://stability.ai/blog/stable-diffusion-public-release) made available to everyone one of the most powerful deep learning model for image generation. 
+Recently, the [Stable Diffusion Public Release](https://stability.ai/blog/stable-diffusion-public-release) made available to everyone one of the most powerful deep learning models for image generation. 
 
 This repository is a collection of simple scripts that can be used to generate images with Stable Diffusion and gives an introduction to the theory behind diffusion models.
 
@@ -12,6 +12,11 @@ If you don't have a GPU server to run the model, you can try out Stable Diffusio
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
 - Image to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zjr9n60q3G8Qd87WG3ZnjDgI-D1YBCbG?usp=sharing)
 
+**Stable Diffusion 2**
+- Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e8MV75aD66It0WXo5-ddUEjfvhVG8URv?usp=sharing)
+- Impainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JuTzAY0NzojvSU-rB4BNI9F8z3tcv9iX?usp=sharing)
+- Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qnKCWs4IB-n1xfCjeNgbaSu-mFwp7bLv?usp=sharing)
+- Depth-to-image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wG2L3viHBb3vyPy1-l29bwTGePEA4gLJ?usp=sharing)
 
 ## 2. Prompt engineering guide
 Let's say you want to draw an image of ``lion``. The raw promt, ``lion`` will give you images that are usually a bit chaotic or worse quality.
