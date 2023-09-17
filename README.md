@@ -6,13 +6,12 @@ This repository is a collection of simple scripts that can be used to generate i
 
 Check [here](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0kurBgDwDsNOLybrYKU-O2y98xM/edit?usp=sharing) for a short introduction about the idea behind diffusion models and stable diffusion.
 
-To start using Stable Diffusion, you first need to create an account on [Huggin's Face](https://huggingface.co/), generate a [token](https://huggingface.co/docs/hub/security-tokens) and accept the [conditions](https://huggingface.co/CompVis/stable-diffusion-v1-4). Afterwards, if you have access to a GPU server, you can follow the basic tutorial in the [model card](https://huggingface.co/CompVis/stable-diffusion-v1-4).
-If you don't have a GPU server to run the model, you can try out Stable Diffusion using one of the Colab notebooks below.
+To try out **Stable Diffusion**, you can run one of the Colab notebooks below.
 
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
 - Image to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zjr9n60q3G8Qd87WG3ZnjDgI-D1YBCbG?usp=sharing)
 
-**Stable Diffusion 2**
+To try out **Stable Diffusion 2**, you can run one of the Colab notebooks below.
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e8MV75aD66It0WXo5-ddUEjfvhVG8URv?usp=sharing)
 - Impainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JuTzAY0NzojvSU-rB4BNI9F8z3tcv9iX?usp=sharing)
 - Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qnKCWs4IB-n1xfCjeNgbaSu-mFwp7bLv?usp=sharing)
