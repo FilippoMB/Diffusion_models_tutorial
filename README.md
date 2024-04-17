@@ -30,10 +30,10 @@ To try out **Stable Diffusion 2**, you can run one of the Colab notebooks below.
 
 ### ⚒ Understand the theory and learn to build pipelines
 
-- Understand the theory behind stable diffusion models and learn how to code a simple diffusion model from scratch in [this nnotebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/diffusion_from_scratch.ipynb).
-- Become familiar with the stable diffusion pipeline and the diffusers 🧨 library  in [this nnotebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/Diffusers_library.ipynb).
+- Understand the theory behind stable diffusion models and learn how to code a simple diffusion model from scratch in [this notebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/diffusion_from_scratch.ipynb).
+- Become familiar with the stable diffusion pipeline and the diffusers 🧨 library  in [this notebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/Diffusers_library.ipynb).
 
-To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda]()) and then create the environment using the provided env files.
+To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)) and then create the environment using the provided env files.
 
 First, try to create the environment using [environment.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment.yml): 
 
