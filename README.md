@@ -41,10 +41,10 @@ First, try to create the environment using [environment.yml](https://github.com/
 conda env create -f environment.yml
 ````
 
-If it doesn't work out, try with [env.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_flex.yml) that allows for a more flexible installation. 
+If it doesn't work out, try with [env_flex.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_flex.yml) that allows for a more flexible installation. 
 
 ````bash
-conda env create -f env.yml
+conda env create -f env_flex.yml
 ````
 The risk here is that it will install more recent versions of the software packages and the notebooks might give some errors.
 You might need to this more flexible install also if you are on Windows.
