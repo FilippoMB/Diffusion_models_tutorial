@@ -1,12 +1,23 @@
-## 1. Quick start 
+# Diffusion models tutorial 
 
-Recently, the [Stable Diffusion Public Release](https://stability.ai/blog/stable-diffusion-public-release) made available to everyone one of the most powerful deep learning models for image generation. 
+A while ago [Stable Diffusion Public Release](https://stability.ai/blog/stable-diffusion-public-release) made available to everyone one of the most powerful deep learning models for image generation. 
 
-This repository is a collection of simple scripts that can be used to generate images with Stable Diffusion and gives an introduction to the theory behind diffusion models.
+This repository contains:
 
-Check [here](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0kurBgDwDsNOLybrYKU-O2y98xM/edit?usp=sharing) for a short introduction about the idea behind diffusion models and stable diffusion.
+- Tutorials on the theory behind diffusion models and on the software frameworks used to implement them.
+- A collection of scripts and notebooks that can be used to generate images with Stable Diffusion.
+- A basic guide to prompt engineering.
+- A list of resources to dig deeper into the world of diffusion models.
 
-To try out **Stable Diffusion**, you can run one of the Colab notebooks below.
+## 1. 🚀 Quick start
+
+### 📃 Read up
+
+Check these [slides](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0kurBgDwDsNOLybrYKU-O2y98xM/edit?usp=sharing) for a short introduction about the idea behind diffusion models and stable diffusion.
+
+### 💻 Play with notebooks
+
+To try out **Stable Diffusion** by running run one of the Colab notebooks below.
 
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
 - Image to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zjr9n60q3G8Qd87WG3ZnjDgI-D1YBCbG?usp=sharing)
@@ -17,7 +28,29 @@ To try out **Stable Diffusion 2**, you can run one of the Colab notebooks below.
 - Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qnKCWs4IB-n1xfCjeNgbaSu-mFwp7bLv?usp=sharing)
 - Depth-to-image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wG2L3viHBb3vyPy1-l29bwTGePEA4gLJ?usp=sharing)
 
-## 2. Prompt engineering guide
+### ⚒ Understand the theory and learn to build pipelines
+
+- Understand the theory behind stable diffusion models and learn how to code a simple diffusion model from scratch in [this nnotebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/diffusion_from_scratch.ipynb).
+- Become familiar with the stable diffusion pipeline and the diffusers 🧨 library  in [this nnotebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/Diffusers_library.ipynb).
+
+To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda]()) and then create the environment using the provided env files.
+
+First, try to create the environment using [environment.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment.yml): 
+
+````bash
+conda env create -f environment.yml
+````
+
+If it doesn't work out, try with [env.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_flex.yml) that allows for a more flexible installation. 
+
+````bash
+conda env create -f env.yml
+````
+The risk here is that it will install more recent versions of the software packages and the notebooks might give some errors.
+You might need to this more flexible install also if you are on Windows.
+
+
+## 2. 💡 Prompt engineering guide
 Let's say you want to draw an image of ``lion``. The raw promt, ``lion`` will give you images that are usually a bit chaotic or worse quality.
 
 
@@ -51,7 +84,7 @@ Example of elaborated prompts:
 To see more examples of prompts and get inspirations, check [here](https://lexica.art/). To find a prompt for a specific image, you can use [this](https://colab.research.google.com/github/pharmapsychotic/clip-interrogator/blob/main/clip_interrogator.ipynb?authuser=0&pli=1#scrollTo=rbDEMDGJrJEo) image classifier notebook. 
 
 
-## 3. Resources
+## 3. 📚 Resources
 
 **Repositories**
 - A web-interface with tons of advanced features that runs locally - [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).

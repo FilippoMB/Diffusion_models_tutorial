@@ -1,0 +1,25 @@
+name: diffusion
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - huggingface
+  - defaults
+dependencies:
+  - diffusers
+  - transformers
+  - datasets
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchvision
+  - einops
+  - matplotlib
+  - numpy
+  - scipy
+  - tqdm
+  - pillow
+  - ipywidgets
+  - notebook==6.3
+  - rise
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
