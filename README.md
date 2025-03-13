@@ -11,11 +11,14 @@ This repository contains:
 
 ## 1. 🚀 Quick start
 
-### 📃 Read up
+### 🧱 Learn the basics
 
-Check these [slides](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0kurBgDwDsNOLybrYKU-O2y98xM/edit?usp=sharing) for a short introduction about the idea behind diffusion models and stable diffusion.
+Check these [slides](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0kurBgDwDsNOLybrYKU-O2y98xM/edit?usp=sharing) for a short introduction about the basic idea behind diffusion models and stable diffusion.
 
 ### 💻 Play with notebooks
+
+> [!WARNING] 
+> Since the libraries used in the notebooks below are often updated, the notebooks might stop working at some point. Please, open an issue if you encounter problems and bugs.
 
 To try out **Stable Diffusion** by running run one of the Colab notebooks below.
 
@@ -26,31 +29,36 @@ To try out **Stable Diffusion 2**, you can run one of the Colab notebooks below.
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e8MV75aD66It0WXo5-ddUEjfvhVG8URv?usp=sharing)
 - Impainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JuTzAY0NzojvSU-rB4BNI9F8z3tcv9iX?usp=sharing)
 - Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qnKCWs4IB-n1xfCjeNgbaSu-mFwp7bLv?usp=sharing)
-- Depth-to-image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wG2L3viHBb3vyPy1-l29bwTGePEA4gLJ?usp=sharing)
+- Depth-to-image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dS9E8lBJywuoCmZiZAVXo6IaGw4Te5B0?usp=sharing)
 
-### ⚒ Understand the theory and learn to build pipelines
+### 🤓 Understand the theory and learn to build pipelines
 
 - Understand the theory behind stable diffusion models and learn how to code a simple diffusion model from scratch in [this notebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/diffusion_from_scratch.ipynb).
 - Become familiar with the stable diffusion pipeline and the diffusers 🧨 library  in [this notebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/Diffusers_library.ipynb).
 
-To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)) and then create the environment using the provided env files.
+To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)) and then creating the environment using the provided env files.
 
-First, try to create the environment using [environment.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment.yml): 
+First, try to create the environment using [environment.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment.yml):
 
 ````bash
 conda env create -f environment.yml
 ````
 
-If it doesn't work out, try with [env_flex.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_flex.yml) that allows for a more flexible installation. 
+If that doesn't work, try with [env_flex.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_flex.yml) that allows for a more flexible installation. 
 
 ````bash
 conda env create -f env_flex.yml
 ````
+
 The risk here is that it will install more recent versions of the software packages and the notebooks might give some errors.
 You might need to this more flexible install also if you are on Windows.
+If you are on MacOS, instead, use [env_mac.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_mac.yml):
 
+````bash
+conda env create -f env_flex.yml
+````
 
-## 2. 💡 Prompt engineering guide
+## 2. 👷🏻 Prompt engineering guide
 Let's say you want to draw an image of ``lion``. The raw promt, ``lion`` will give you images that are usually a bit chaotic or worse quality.
 
 
@@ -89,6 +97,9 @@ To see more examples of prompts and get inspirations, check [here](https://lexic
 **Repositories**
 - A web-interface with tons of advanced features that runs locally - [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 - A WebUI extension to generate videos - [Deforum WebUI](https://github.com/deforum-art/sd-webui-deforum)
+
+> [!WARNING] 
+> Since the libraries used in the notebooks below are often updated, the notebooks might stop working at some point. Please, open an issue if you encounter problems and bugs.
 
 **Colab notebooks (demo)**
 - text2img and img2img with advanced features [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AfAmwLMd_Vx33O9IwY2TmO9wKZ8ABRRa)
