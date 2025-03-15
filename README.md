@@ -4,7 +4,8 @@ A while ago [Stable Diffusion Public Release](https://stability.ai/blog/stable-d
 
 This repository contains:
 
-- Tutorials on the theory behind diffusion models and on the software frameworks used to implement them.
+- Tutorials on the theory behind diffusion models and the software libraries used to implement them.
+- A step-by-step guide on how to implement a diffusion model from scratch.
 - A collection of scripts and notebooks that can be used to generate images with Stable Diffusion.
 - A basic guide to prompt engineering.
 - A list of resources to dig deeper into the world of diffusion models.
@@ -20,12 +21,12 @@ Check these [slides](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0ku
 > [!WARNING] 
 > Since the libraries used in the notebooks below are often updated, the notebooks might stop working at some point. Please, open an issue if you encounter problems and bugs.
 
-To try out **Stable Diffusion** by running run one of the Colab notebooks below.
+Try out **Stable Diffusion** by running one of the Colab notebooks below.
 
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
 - Image to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zjr9n60q3G8Qd87WG3ZnjDgI-D1YBCbG?usp=sharing)
 
-To try out **Stable Diffusion 2**, you can run one of the Colab notebooks below.
+To try out **Stable Diffusion 2**, run one of the Colab notebooks below.
 - Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e8MV75aD66It0WXo5-ddUEjfvhVG8URv?usp=sharing)
 - Impainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JuTzAY0NzojvSU-rB4BNI9F8z3tcv9iX?usp=sharing)
 - Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qnKCWs4IB-n1xfCjeNgbaSu-mFwp7bLv?usp=sharing)
@@ -59,14 +60,14 @@ conda env create -f env_flex.yml
 ````
 
 ## 2. 👷🏻 Prompt engineering guide
-Let's say you want to draw an image of ``lion``. The raw promt, ``lion`` will give you images that are usually a bit chaotic or worse quality.
+Let's say you want to draw an image of ``lion``. The raw prompt, ``lion`` will give you images that are usually a bit chaotic or of worse quality.
 
 
 <div>
 <img src="./img/lion_short.png" width="250"/>
 </div>
 
-To obtain better results, the prompt should be egineered. A basic recipe is the following:
+To obtain better results, the prompt should be engineered. A basic recipe is the following:
 
 ``raw prompt`` + ``style`` + ``artist`` + ``details``
 
@@ -95,7 +96,7 @@ To see more examples of prompts and get inspirations, check [here](https://lexic
 ## 3. 📚 Resources
 
 **Repositories**
-- A web-interface with tons of advanced features that runs locally - [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+- A web interface with tons of advanced features that runs locally - [WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 - A WebUI extension to generate videos - [Deforum WebUI](https://github.com/deforum-art/sd-webui-deforum)
 
 > [!WARNING] 
@@ -117,12 +118,10 @@ To see more examples of prompts and get inspirations, check [here](https://lexic
 
 **Blogs**
 - [What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#nice) introduction to Diffusion models and mathematical derivations.
-- [The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion) step-by-step tutorial for building a Diffusion model from scratch in Pytorch
+- [The Annotated Diffusion Model](https://huggingface.co/blog/annotated-diffusion) step-by-step tutorial for building a Diffusion model from scratch in PyTorch.
 - [Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.net/blog/2021/score/) Introduction to score-based generative models.
 
 **Papers**
 - [[1](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)] Rombach, Robin, et al. "High-resolution image synthesis with latent diffusion models." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022.
-
 - [[2](https://arxiv.org/abs/2006.11239)] Ho, Jonathan, Ajay Jain, and Pieter Abbeel. "Denoising diffusion probabilistic models." Advances in Neural Information Processing Systems, 2020.
-
 - [[3](https://arxiv.org/abs/1907.05600)] Song, Yang, and Stefano Ermon. "Generative modeling by estimating gradients of the data distribution." Advances in Neural Information Processing Systems, 2019.
