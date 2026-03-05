@@ -1,6 +1,7 @@
-name: diffusion
+name: diffusion-gpu
 channels:
   - pytorch
+  - nvidia
   - conda-forge
   - defaults
 dependencies:
@@ -8,7 +9,7 @@ dependencies:
   - pip
   - pytorch
   - torchvision
-  - cpuonly
+  - pytorch-cuda=12.4
   - numpy
   - scipy
   - matplotlib

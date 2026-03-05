@@ -37,26 +37,22 @@ To try out **Stable Diffusion 2**, run one of the Colab notebooks below.
 - Understand the theory behind stable diffusion models and learn how to code a simple diffusion model from scratch in [this notebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/diffusion_from_scratch.ipynb).
 - Become familiar with the stable diffusion pipeline and the diffusers 🧨 library  in [this notebook](https://nbviewer.org/github/FilippoMB/Diffusion_models_tutorial/blob/main/Diffusers_library.ipynb).
 
-To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)) and then creating the environment using the provided env files.
-
-First, try to create the environment using [environment.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment.yml):
+To run the notebooks you need to have several libraries installed. You can do that by installing Anaconda (or [Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)) and creating the environment with [environment.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment.yml):
 
 ````bash
 conda env create -f environment.yml
 ````
 
-If that doesn't work, try with [env_flex.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_flex.yml) that allows for a more flexible installation. 
+If you want GPU acceleration (NVIDIA), use [environment_gpu.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/environment_gpu.yml):
 
 ````bash
-conda env create -f env_flex.yml
+conda env create -f environment_gpu.yml
 ````
 
-The risk here is that it will install more recent versions of the software packages and the notebooks might give some errors.
-You might need to this more flexible install also if you are on Windows.
-If you are on MacOS, instead, use [env_mac.yml](https://github.com/FilippoMB/Diffusion_models_tutorial/blob/main/env_mac.yml):
+If you already have a `diffusion` environment and want to refresh it with the latest dependencies:
 
 ````bash
-conda env create -f env_flex.yml
+conda env update -f environment.yml --prune
 ````
 
 ## 2. 👷🏻 Prompt engineering guide
