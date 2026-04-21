@@ -21,16 +21,12 @@ Check these [slides](https://docs.google.com/presentation/d/1jUO9jZLtUGoK7kgg0ku
 > [!WARNING] 
 > Since the libraries used in the notebooks below are often updated, the notebooks might stop working at some point. Please, open an issue if you encounter problems and bugs.
 
-Try out **Stable Diffusion** by running one of the Colab notebooks below.
+Try out **Stable Diffusion XL** by running one of the Colab notebooks below.
 
-- Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MyESLsR8D5l_EBqumwxL0eMzNmd3uqs6?usp=sharing)
-- Image to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zjr9n60q3G8Qd87WG3ZnjDgI-D1YBCbG?usp=sharing)
-
-To try out **Stable Diffusion 2**, run one of the Colab notebooks below.
-- Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e8MV75aD66It0WXo5-ddUEjfvhVG8URv?usp=sharing)
-- Impainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1JuTzAY0NzojvSU-rB4BNI9F8z3tcv9iX?usp=sharing)
-- Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qnKCWs4IB-n1xfCjeNgbaSu-mFwp7bLv?usp=sharing)
-- Depth-to-image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dS9E8lBJywuoCmZiZAVXo6IaGw4Te5B0?usp=sharing)
+- Text to image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FilippoMB/Diffusion_models_tutorial/blob/main/collab_notebooks/text_to_image.ipynb)
+- Impainting [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FilippoMB/Diffusion_models_tutorial/blob/main/collab_notebooks/impainting.ipynb)
+- Super-resolution [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FilippoMB/Diffusion_models_tutorial/blob/main/collab_notebooks/super_resolution.ipynb)
+- Depth-to-image [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/FilippoMB/Diffusion_models_tutorial/blob/main/collab_notebooks/depth_to_image.ipynb)
 
 ### 🤓 Understand the theory and learn to build pipelines
 

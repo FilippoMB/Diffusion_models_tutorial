@@ -13,6 +13,7 @@ dependencies:
   - scipy
   - matplotlib
   - pillow
+  - libjpeg-turbo
   - tqdm
   - einops
   - diffusers
@@ -25,3 +26,7 @@ dependencies:
   - ipywidgets
   - jupyterlab
   - notebook
+  - pip:
+    - opencv-python
+    - controlnet_aux==0.0.9
+    - invisible_watermark>=0.2.0
